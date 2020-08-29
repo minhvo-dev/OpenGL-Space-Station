@@ -115,6 +115,6 @@ A small C++ program that showcases how to use OpenGL to _create_ a static space 
 
 ## Other Information
 - The project is the final product of INFO3111 course.
-- The [**Fly Camera**](./fly_camera) module is added in order to navigate through the scene easier.
-- The [**Texture Manager**](./cBasicTextureManager) module is added in order to be able to wrap the object with realistic costume.   
+- The [**Fly Camera**](./src/OpenGLProject/fly_camera) module is added in order to navigate through the scene easier.
+- The [**Texture Manager**](./src/OpenGLProject//cBasicTextureManager) module is added in order to be able to wrap the object with realistic costume.   
 > **Note**: These two modules, **Fly Camera** and **Texture Manager**, are written by [**Professor Michael Feeney**](https://github.com/LordMichaelmort) and are used without any modification.
