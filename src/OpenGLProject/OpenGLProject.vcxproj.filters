@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b88d4459-32ed-469e-b3c2-01676ce07837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VAO and Model">
+      <UniqueIdentifier>{5b8b7a37-ca92-4fb9-9e1a-443f573dd827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Mesh Objects">
+      <UniqueIdentifier>{812acf5b-e564-41ea-81d9-632e0ecdce1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light Manager">
+      <UniqueIdentifier>{37d5da5b-9a92-4f36-973c-2c4cc4c5fcd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture Manager">
+      <UniqueIdentifier>{aae6106a-7955-4a8a-abd7-cf9325f1f050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fly Camera">
+      <UniqueIdentifier>{e785d0f6-7670-4f58-ba5b-6b753168d954}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="light_manager\cLightManager.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cBasicTextureManager\C24BitBMPpixel.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cBasicTextureManager\cBasicTextureManager.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cBasicTextureManager\CTextureFromBMP.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="vao_model_manager\cModelManager.cpp">
+      <Filter>VAO and Model</Filter>
+    </ClCompile>
+    <ClCompile Include="vao_model_manager\cVAOManager.cpp">
+      <Filter>VAO and Model</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_object\cMeshObject.cpp">
+      <Filter>Mesh Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\cShaderManager.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="fly_camera\cFlyCamera.cpp">
+      <Filter>Fly Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\drawObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\keyBoardMouseIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\loadModels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cBasicTextureManager\C24BitBMPpixel.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cBasicTextureManager\cBasicTextureManager.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cBasicTextureManager\CTextureFromBMP.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="vao_model_manager\cModelManager.hpp">
+      <Filter>VAO and Model</Filter>
+    </ClInclude>
+    <ClInclude Include="vao_model_manager\cVAOManager.hpp">
+      <Filter>VAO and Model</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_object\cMeshObject.hpp">
+      <Filter>Mesh Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="fly_camera\cFlyCamera.h">
+      <Filter>Fly Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="fly_camera\iCamera.h">
+      <Filter>Fly Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="light_manager\cLightManager.hpp">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\cShaderManager.hpp">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\globalOpenGL.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\globalUtilities.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\globalVariables.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\simpleFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\simpleVertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

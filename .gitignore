@@ -1,0 +1,5 @@
+# Ignore VS generated files
+*/.vs/
+*.vcxproj.user
+# Ignore build files
+x64/
