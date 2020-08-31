@@ -6,7 +6,7 @@ A small C++ program that showcases how to use OpenGL to _create_ a static space 
 - [Libraries and Tools](#libraries-and-tools)
 - [Resource](#resource)
 - [Highlights](#highlights)
-- [Other Information](#other-information)
+- [Acknowledgement](#acknowledgement)
 
 ## Libraries and Tools
 - The project is written exclusively in Visual Studio 2019 so there is no `makefile` or `cmake` files.
@@ -81,37 +81,69 @@ A small C++ program that showcases how to use OpenGL to _create_ a static space 
 ## Hightlights
 > Short video demo can be found at https://youtu.be/mwWT0cJzcBE
 
-- Sky is rotating.       
+- Sky is rotating.     
 
+<details>
+    
 ![Start screen](./res/001_start_screen_ss.jpg "Start screen")
+
+</details>
 
 - Objects are shiny.
 
+<details>
+    
 ![Inside tunnel](./res/002_inside_tunnel_ss.jpg "Inside tunnel")
+
+</details>
 
 - The beakers (laboratory equipment) on the near table are transparent.   
 
+<details>
+    
 ![Work desks](./res/003_work_desk_ss.jpg "Work desks")
+
+</details>
 
 - Same object but different angles and lights.
 
+<details>
+    
 ![Signs](./res/004_signs_ss.jpg "Signs")
+
+</details>
 
 - Directional lights are used to replicate a working computer screen.
 
+<details>
+    
 ![Control computers](./res/005_control_computers_ss.jpg "Control computers")
+
+</details>
 
 - Directional lights with customized color.
 
+<details>
+    
 ![Plants](./res/006_plants_ss.jpg "Plants")
+
+</details>
 
 - Changing light attenuation to replicate flickering engine light.
 
+<details>
+    
 ![X-Wing from behind](./res/007_x-wing_back_ss.jpg "X-Wing from behind")
+
+</details>
 
 - Overview of the space
 
+<details>
+    
 ![Overview](./res/008_big_picture_ss.jpg "Overview")
+
+</details>
 
 ## Acknowledgement
 - The project is the final product of INFO3111 course.
